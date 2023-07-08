@@ -6,6 +6,7 @@ import Projects from './Projects';
 import Navbar from './Navbar';
 import './App.css';
 import Contact from './Contact';
+import Footer from './Footer';
 
 const App = () => {
   const [showScrollButton, setShowScrollButton] = useState(false);
@@ -35,6 +36,7 @@ const App = () => {
       <About />
       <Projects />
       <Contact/>
+      <Footer/>
       {showScrollButton && (
         <button className="scroll-button" onClick={handleScrollToTop}>
           <i className="fas fa-chevron-up"></i>
