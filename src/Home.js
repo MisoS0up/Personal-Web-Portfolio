@@ -15,13 +15,14 @@ const Home = () => {
               I am <i>Dan Joshua Naing</i>, a passionate developer showcasing my skills and projects. <i>Based in Manila, Philippines</i> 
             </p>
             <p className="mt-4">
-              <a href="https://github.com/MisoS0up" target="_blank" rel="noopener noreferrer">
-                <i className="fab fa-github-square sm:text-3xl md:text-4xl" aria-hidden="true"></i>
-              </a>
-              <a href="https://www.linkedin.com/in/dan-joshua-naing-39870a266/" target="_blank" rel="noopener noreferrer">
-                <i className="fab fa-linkedin sm:text-3xl md:text-4xl" aria-hidden="true"></i>
-              </a>
-            </p>
+  <a href="https://github.com/MisoS0up" target="_blank" rel="noopener noreferrer" className="mr-4">
+    <i className="fab fa-github-square text-3xl md:text-4xl" aria-hidden="true"></i>
+  </a>
+  <a href="https://www.linkedin.com/in/dan-joshua-naing-39870a266/" target="_blank" rel="noopener noreferrer">
+    <i className="fab fa-linkedin text-3xl md:text-4xl" aria-hidden="true"></i>
+  </a>
+</p>
+
           </div>
           <div className="ml-auto">
             <div style={{ width: '400px', height: '400px' }}>
