@@ -2,7 +2,7 @@ import React from 'react';
 
 const Contact = () => {
   return (
-    <div className="contact-content flex items-center justify-start ">
+    <div className="contact-content flex items-center justify-start " id='contact'>
       <div className="max-w-3xl mx-auto px-4">
         <div className="flex items-center">
           <div className="mr-8">
@@ -18,7 +18,7 @@ const Contact = () => {
             </div>
           </div>
           <div>
-            <img className="w-64 h-64 object-cover rounded-md" src="/images/misosoup.png" alt="Contact" />
+            <img className="w-64 h-64 object-cover rounded-md" src="/images/misosoup.png" alt="Contact"/>
           </div>
         </div>
       </div>
