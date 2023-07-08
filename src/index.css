@@ -1,0 +1,90 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@400;500&display=swap');
+body {
+  font-family: 'Signika Negative', sans-serif;
+  margin: 0;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.nav-contents{
+  background: #ffffff;
+}
+.contact-content{
+  background: #f7f7f7;
+}
+.About-contents{
+  background: #f7f7f7;
+}
+
+.spikes {
+  position: relative;
+  background: #ecf1f9;
+  height: 1vh;
+}
+
+.spikes::after {
+  content: '';
+  position: absolute;
+  right: 0;
+  left: -0%;
+  top: 100%;
+  z-index: 5;
+  display: block;
+  height: 100px;
+  background-size: 20px 100%;
+  background-image: linear-gradient(135deg, #ecf1f9 25%, transparent 25%), linear-gradient(225deg, #ecf1f9 25%, transparent 25%);
+  background-position: 0 0;
+}
+
+.custom-shape-divider-top-1688803049 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-top-1688803049 svg {
+  position: relative;
+  display: block;
+  width: calc(150% + 1.3px);
+  height: 80px;
+}
+
+.custom-shape-divider-top-1688803049 .shape-fill {
+  fill: #ECF1F9;
+}
+
+
+
+.scroll-button {
+  position: fixed;
+  bottom: 60px;
+  right: 60px;
+  background-color: #2c2727;
+  color: #fbfbfb;
+  border: none;
+  padding: 20px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: opacity 0.3s;
+}
+
+.scroll-button i {
+  font-size: 20px;
+}
+
+.scroll-button:hover {
+  opacity: 0.8;
+}
