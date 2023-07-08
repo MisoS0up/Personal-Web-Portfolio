@@ -4,7 +4,7 @@ import animationData from './assets/programmer.json';
 
 const About = () => {
   return (
-    <div className="About-contents flex items-center justify-center min-screen" style={{ height: '50vh' }} id='about'>
+    <div className="About-contents flex items-center justify-center min-screen mb-20" style={{ height: '50vh' }} id='about'>
       <div className="max-w-3xl mx-auto px-7">
         <div className="flex flex-col md:flex-row items-center">
           <div className="mr-10 mb-6 md:mb-0">

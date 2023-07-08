@@ -61,7 +61,8 @@ const Navbar = () => {
               </Link>
             </div>
           </div>
-          <div className="flex items-center md:hidden">
+          <div className="flex items-center justify-end md:hidden">
+          <div className="ml-auto">
             <button
               onClick={handleMenuToggle}
               type="button"
@@ -76,6 +77,11 @@ const Navbar = () => {
               </svg>
             </button>
           </div>
+        </div>
+
+
+
+
         </div>
       </div>
       <div className={`${isMenuOpen ? 'block' : 'hidden'} md:hidden`}>

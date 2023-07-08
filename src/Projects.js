@@ -29,7 +29,7 @@ const Projects = () => {
   return (
     <div className="Projects-contents flex flex-col items-center justify-start min-h-screen mt-20" id='project'>
       <div className="max-w-3xl mx-auto px-4">
-        <h1 className="text-4xl font-bold mb-8 text-blue-500">Projects</h1>
+        <h1 className="text-4xl font-bold mb-8 text-blue-500 mt-20">Projects</h1>
         <h1 className="text-4sm font-bold mb-4 text-gray-600">Projects made by me! </h1>
         {projects.map((project, index) => (
              <div key={index} className="bg-white shadow-lg rounded-lg overflow-hidden mb-6 mt-20">
