@@ -8,6 +8,9 @@ const Footer = () => {
           <p className="text-center text-sm">© 2023 Dan Joshua Naing. All rights reserved.</p>
         </div>
       </div>
+
+      
+   
     </footer>
   );
 };
