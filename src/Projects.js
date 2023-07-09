@@ -6,8 +6,8 @@ const Projects = () => {
       title: 'Akumi and the Forbidden Language',
       description: 'A 2D Isometric Role Playing Android Game genre that will easily lead newbies and interested individuals through the game—educating people on how to code by having them play the game and read the story with instructions so they can completely understand the game mechanics.',
       imageUrl: '/images/akumiTitle.png',
-      link: 'https://example.com/project1',
-      linkSource: 'github.com',
+      link: 'github.com',
+      linkSource: 'https://drive.google.com/file/d/1EAfCtlXkL-0-JWxXTEf0CvFS2ggWlCXF/view?usp=sharing',
       icons:'fa-brands fa-unity ',
     },
     {
@@ -44,7 +44,9 @@ const Projects = () => {
                    <p className="text-gray-600 flex-grow">{project.description}</p>
                  </div>
                  <div className='text-3xl md:text-4xl pl-28'>
-                 <i class={project.icons} aria-hidden="true"></i>
+         
+                  <i class={project.icons} aria-hidden="true"> </i>
+               
                   </div>
                  
                  <div className="flex mt-4">
