@@ -11,11 +11,11 @@ const Projects = () => {
       icons:'fa-brands fa-unity ',
     },
     {
-      title: 'Project 2',
-      description: 'Duis ac pulvinar turpis. Vivamus maximus volutpat mi eget semper.',
-      imageUrl: '/images/misosoup.png',
-      link: 'https://example.com/project2',
-      linkSource: 'github.com',
+      title: 'Schedule-Generator',
+      description: 'Schedule-Generator is a project developed by Accenture Training Academy in collaboration with STI Global City. It allows you to create schedules for professors, rooms, and other entities.',
+      imageUrl: '/images/schedule-generator.png',
+      link: 'https://github.com/MisoS0up/Schedule-Generator',
+      linkSource: 'https://github.com/MisoS0up/Schedule-Generator',
     },
     {
       title: 'Project 3',
@@ -28,7 +28,7 @@ const Projects = () => {
   ];
 
   return (
-    <div className="Projects-contents flex flex-col items-center justify-start min-h-screen mt-20" id='project'>
+    <div className="Projects-contents flex flex-col items-center justify-start min-h-screen mt-20 " id='project'>
       <div className="max-w-5xl mx-auto px-4">
         <h1 className="text-4xl font-bold mb-8 text-blue-500 mt-20">Projects</h1>
         <h1 className="text-4sm font-bold mb-4 text-gray-600">Projects made by me! </h1>
@@ -36,7 +36,7 @@ const Projects = () => {
              <div key={index} className="bg-white shadow-lg rounded-lg overflow-hidden mb-6 mt-20">
              <div className="flex flex-col md:flex-row">
                <div className="w-full md:w-51 h-48">
-                 <img className="w-full h-full object-cover" src={project.imageUrl} alt="Card" />
+                 <img className="w-full h-full object-cover transition duration-500 hover:scale-125" src={project.imageUrl} alt="Card" />
                </div>
                <div className="flex flex-col justify-between p-4">
                  <div>
