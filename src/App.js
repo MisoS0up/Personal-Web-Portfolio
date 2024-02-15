@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import { Link } from 'react-scroll';
 import Home from './Home';
 import About from './About';
 import Projects from './Projects';

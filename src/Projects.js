@@ -14,15 +14,22 @@ const Projects = () => {
       title: 'Schedule-Generator',
       description: 'Schedule-Generator is a project developed by Accenture Training Academy in collaboration with STI Global City. It allows you to create schedules for professors, rooms, and other entities.',
       imageUrl: '/images/schedule-generator.png',
-      link: 'https://github.com/MisoS0up/Schedule-Generator',
+      link: '#BrokenLink',
       linkSource: 'https://github.com/MisoS0up/Schedule-Generator',
     },
     {
-      title: 'Project 3',
-      description: 'Suspendisse dignissim metus et urna vulputate, ac dignissim felis dapibus.',
+      title: 'Pendora',
+      description: 'A Sample E-commerce website that sells Jewelries. It is a project developed by Accenture Bootcamp',
       imageUrl: '/images/misosoup.png',
-      link: 'https://example.com/project3',
-      linkSource: 'github.com',
+      link : '#project',
+      linkSource: 'https://pendora-mvc.azurewebsites.net/',
+    },
+    {
+      title: 'NBI Clearance System',
+      description: 'A Sample NBI Clearance System that allows you to register and apply for NBI Clearance. It is a project developed by Accenture Bootcamp',
+      imageUrl: '/images/misosoup.png',
+      link : '#project',
+      linkSource: 'https://nbi-mvc.azurewebsites.net/',
     },
     
   ];
@@ -50,7 +57,7 @@ const Projects = () => {
                   </div>
                  
                  <div className="flex mt-4">
-                   <a href={project.link} className=" text-gray-800 font-bold py-2 px-4 rounded hover:text-blue-600 transition duration-300 ease-in-out mr-2">
+                   <a href={project.link} className=" text-gray-00 font-bold py-2 px-4 rounded hover:text-blue-600 transition duration-300 ease-in-out mr-2">
                      Code <i className="fa fa-github" aria-hidden="true"></i>
                    </a>
                    <a href={project.linkSource} className="text-gray-800 font-bold  py-2 px-4 rounded hover:text-blue-600 transition duration-300 ease-in-out">
